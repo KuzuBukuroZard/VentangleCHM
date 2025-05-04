@@ -1,0 +1,11 @@
+{
+    "files.encoding": "gbk",
+    "files.autoGuessEncoding": false,
+    "files.associations": {
+      "*.hhp": "plaintext",
+      "*.hhc": "html",
+      "*.hhk": "html"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  

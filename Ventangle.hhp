@@ -1,0 +1,21 @@
+[OPTIONS]
+Binary Index=No
+Compatibility=1.1 or later
+Compiled file=Ventangle不全书.chm
+Contents file=Contents.hhc
+Default Window=Main
+Default topic=index.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x804 简体中文(中国大陆)
+Title=Ventangle不全书
+
+[WINDOWS]
+Main="Ventangle不全书","Contents.hhc","Index.hhk","index.htm","index.htm",,,,,0x63520,,0x104e,[271,372,1171,1572],0xca0000,,,,,,0
+
+[FILES]
+styles.css
+
+[INFOTYPES]
+
