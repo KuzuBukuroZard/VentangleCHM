@@ -61,12 +61,9 @@ h6 {
 
 /* 列表 */
 ul,ol {
-    margin-left: 20px;
-    padding-left: 10px;
-}
-
-li {
-    margin-bottom: 5px;
+    margin-left: 0;
+    padding-left: 2em;
+    list-style-type: disc;
 }
 
 /* 表格 */
@@ -86,18 +83,23 @@ th {
     font-weight: bold;
 }
 
-.odd td{
+tr.odd td{
     background-color: #d7d7d7;
-    border: 1px solid #000000;
-    padding: 5px;
     color: #000000;
 }
 
-.even td{
+tr.even td{
     background-color: #ffffff;
+    color: #000000
+}
+
+td {
     border: 1px solid #000000;
     padding: 5px;
-    color: #000000
+}
+
+td.override-even {
+    background-color: #ffffff !important;
 }
 
 /* 可能要用到的额外组件 */
@@ -115,7 +117,8 @@ th {
     position: relative;
     background-color: #ffffff;
     font-family: "微软雅黑", "Microsoft YaHei", sans-serif;
-    margin: 15px 0;
+    margin: 15px 15px 15px 0;
+    float: left;
 }
 
 .mobcard-title {
@@ -180,4 +183,11 @@ th {
 
 .mobcard-description {
     margin-top: 15px;
+}
+
+.mobcard-container::after {
+    padding: 10px;
+    content: "";
+    display: block;
+    clear: both;
 }
