@@ -28,6 +28,16 @@
 				<param name="Local" value="Ventangle\Core\Readme\Intro.htm">
 				</OBJECT>
 		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="²âÊÔÎÄµµ">
+			<param name="Local" value="Ventangle\Core\Test\TestTitle.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="²âÊÔ">
+				<param name="Local" value="Ventangle\Core\Test\Test.htm">
+				</OBJECT>
+		</UL>
 	</UL>
 </UL>
 </BODY></HTML>

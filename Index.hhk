@@ -15,5 +15,10 @@
 		<param name="Name" value="ºËÐÄÊé/ÒýÑÔ">
 		<param name="Local" value="Ventangle\Core\Intro.htm">
 		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="²âÊÔ">
+		<param name="Name" value="²âÊÔÎÄµµ">
+		<param name="Local" value="Ventangle\Core\Test\Test.htm">
+		</OBJECT>
 </UL>
 </BODY></HTML>
